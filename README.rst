@@ -7,8 +7,8 @@ If you find a dataset useful, please cite the individual dataset's DOI, or this
 DOI, if an individual DOI is not available:
 https://doi.org/10.5281/zenodo.3597646.
 
-ni
---
+nickel_ebsd_large
+-----------------
 .. image:: https://zenodo.org/badge/doi/10.5281/zenodo.3597646.svg
   :target: https://doi.org/10.5281/zenodo.3597646
   :alt: DOI
