@@ -9,12 +9,12 @@ DOI is not available.
 
 nickel_ebsd_large
 -----------------
-.. image:: https://zenodo.org/badge/doi/10.5281/zenodo.3265037.svg
-  :target: https://doi.org/10.5281/zenodo.3265037
-  :alt: DOI
 .. image:: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
   :target: https://creativecommons.org/licenses/by/4.0/
   :alt: CC BY 4.0
+.. image:: https://zenodo.org/badge/doi/10.5281/zenodo.3265037.svg
+  :target: https://doi.org/10.5281/zenodo.3265037
+  :alt: DOI
 
 - Origin: https://doi.org/10.5281/zenodo.3265037
 - Description: A set of experimental EBSD patterns from a recrystallized 
