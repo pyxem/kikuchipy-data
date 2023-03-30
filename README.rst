@@ -37,7 +37,7 @@ sdss_ebsd
   :target: https://creativecommons.org/licenses/by/4.0/
   :alt: CC BY 4.0
 
-- Origin: Acquired by Jarle Hjelen at NTNU in 2023.
+- Origin: Acquired by Jarle Hjelen in 2023.
 - Description: A (60 x 60) set of experimental EBSD patterns of (48 x 48)
-  pixels from a super duplex stainless steel. 
-  The resolution is the result of downsampling by a factor of 2. 
+  pixels from a super duplex stainless steel (austenite and ferrite).
+  The low resolution is the result of downsampling by a factor of 2. 
