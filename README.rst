@@ -30,3 +30,14 @@ silicon_ebsd_moving_screen
 - Description: Three experimental EBSD patterns of (480 x 480) pixels from a
   single crystal Silicon sample acquired with a stationary beam but with
   camera distances varying by 5 mm.
+  
+sdss_ebsd
+--------------------------
+.. image:: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+  :target: https://creativecommons.org/licenses/by/4.0/
+  :alt: CC BY 4.0
+
+- Origin: Acquired by Jarle Hjelen in 2023.
+- Description: A (60 x 60) set of experimental EBSD patterns of (48 x 48)
+  pixels from a super duplex stainless steel (austenite and ferrite).
+  The low resolution is the result of downsampling by a factor of 2. 
