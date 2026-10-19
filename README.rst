@@ -30,3 +30,23 @@ silicon_ebsd_moving_screen
 - Description: Three experimental EBSD patterns of (480 x 480) pixels from a
   single crystal Silicon sample acquired with a stationary beam but with
   camera distances varying by 5 mm.
+
+pzt_pseudosym_ebsd
+-------------------
+.. image:: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
+  :target: https://creativecommons.org/licenses/by/4.0/
+  :alt: CC BY 4.0
+
+- Origin: Acquired by Claire Griesbach at ETH Zurich in 2025. A subset of the 
+  full dataset, which is available here: https://doi.org/10.3929/ethz-c-000799672
+- Description: A (19 x 19) subset of experimental EBSD patterns of (169 x 169)
+  pixels (2x2 binned, uint8) from a polycrystalline lead zirconium titanate (PZT) sample, 
+  acquired on an TFS Quanta 200F SEM equipped with an EDAX Hikari camera mounted at an
+  azimuthal angle of -2 degrees. The dataset also includes a dynamical EBSD master pattern 
+  of PbZr0.52Ti0.48O3 at 15 kV accelerating voltage, simulated with Oxford Instrument's 
+  AZtecCrystal MapSweeper software.``master_pattern.hspy`` is resaved in HyperSpy's own 
+  HDF5 format from the original vendor export, since kikuchipy's EMsoft reader does not 
+  recognize the original file's structure; load it with
+  :func:`kikuchipy.data.pzt_pseudosym_ebsd_master_pattern`, which reapplies the
+  hemisphere/projection/phase metadata that this format does not itself
+  persist.
