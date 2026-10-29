@@ -46,7 +46,6 @@ pzt_pseudosym_ebsd
   of PbZr0.52Ti0.48O3 at 15 kV accelerating voltage, simulated with Oxford Instrument's 
   AZtecCrystal MapSweeper software.``master_pattern.hspy`` is resaved in HyperSpy's own 
   HDF5 format from the original vendor export, since kikuchipy's EMsoft reader does not 
-  recognize the original file's structure; load it with
-  :func:`kikuchipy.data.pzt_pseudosym_ebsd_master_pattern`, which reapplies the
-  hemisphere/projection/phase metadata that this format does not itself
-  persist.
+  recognize the original file's structure; load it with the appropriate function in the 
+  `kikuchipy.data` module, which reapplies the hemisphere/projection/phase metadata that 
+  this format does not itself persist.
