@@ -17,7 +17,7 @@ nickel_ebsd_large
   :alt: DOI
 
 - Origin: https://doi.org/10.5281/zenodo.3265037
-- Description: A set of experimental EBSD patterns from a recrystallized 
+- Description: A set of experimental EBSD patterns from a recrystallized
   polycrystalline Nickel sample of (55 x 75) patterns of (60 x 60) pixels.
 
 silicon_ebsd_moving_screen
@@ -37,15 +37,15 @@ pzt_pseudosym_ebsd
   :target: https://creativecommons.org/licenses/by/4.0/
   :alt: CC BY 4.0
 
-- Origin: Acquired by Claire Griesbach at ETH Zurich in 2025. A subset of the 
+- Origin: Acquired by Claire Griesbach at ETH Zurich in 2025. A subset of the
   full dataset, which is available here: https://doi.org/10.3929/ethz-c-000799672
 - Description: A (19 x 19) subset of experimental EBSD patterns of (169 x 169)
-  pixels (2x2 binned, uint8) from a polycrystalline lead zirconium titanate (PZT) sample, 
+  pixels (2x2 binned, uint8) from a polycrystalline lead zirconium titanate (PZT) sample,
   acquired on an TFS Quanta 200F SEM equipped with an EDAX Hikari camera mounted at an
-  azimuthal angle of -2 degrees. The dataset also includes a dynamical EBSD master pattern 
-  of PbZr0.52Ti0.48O3 at 15 kV accelerating voltage, simulated with Oxford Instrument's 
-  AZtecCrystal MapSweeper software.``master_pattern.hspy`` is resaved in HyperSpy's own 
-  HDF5 format from the original vendor export, since kikuchipy's EMsoft reader does not 
-  recognize the original file's structure; load it with the appropriate function in the 
-  `kikuchipy.data` module, which reapplies the hemisphere/projection/phase metadata that 
+  azimuthal angle of -2 degrees. The dataset also includes a dynamical EBSD master pattern
+  of PbZr0.52Ti0.48O3 at 15 kV accelerating voltage, simulated with Oxford Instrument's
+  AZtecCrystal MapSweeper software.``master_pattern.hspy`` is resaved in HyperSpy's own
+  HDF5 format from the original vendor export, since there is no reader of this master
+  pattern format in kikuchipy v0.13.1's; load it with the appropriate function in the
+  `kikuchipy.data` module, which reapplies the hemisphere/projection/phase metadata that
   this format does not itself persist.
